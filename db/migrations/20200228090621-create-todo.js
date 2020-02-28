@@ -16,6 +16,9 @@ module.exports = {
       },
       content: {
         type: Sequelize.STRING
+      },
+      status: {
+        type: Sequelize.INTEGER
       }
     });
   },
